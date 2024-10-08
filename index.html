@@ -46,7 +46,7 @@
           data-bs-theme="dark"
         >
           <!--Link menu-->
-          <div class="bg-dark p-4">
+          <div class="bg-dark p-4 d-lg-block">
             <h5 class="text-body-emphasis h4">Catalogo libri</h5>
             <span class="text-body-secondary d-block">Anagrafica utenti</span>
             <span class="text-body-secondary d-block">Storico Prestiti</span>
@@ -56,7 +56,7 @@
         <nav class="navbar navbar-dark bg-dark">
           <div class="container-fluid">
             <button
-              class="navbar-toggler"
+              class="navbar-toggler d-lg-none"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarToggleExternalContent"
@@ -87,6 +87,7 @@
           <!--Tabella Libri-->
           <thead>
             <tr>
+              <!--Intestazione tabella-->
               <th scope="col">Titolo</th>
               <th class="d-none d-md-table-cell" scope="col">Data prestito</th>
               <th scope="col">Stato</th>
@@ -95,134 +96,178 @@
           </thead>
           <tbody>
             <tr>
+              <!--Riga 1-->
               <th scope="row">I pilastri della terra</th>
               <td class="d-none d-md-table-cell">-</td>
               <td>
                 <span class="badge text-bg-success p-1">Disponibile</span>
               </td>
               <td class="text-end">
-                <a class="btn btn-primary" href="#" role="button"
+                <a
+                  class="btn border border-secondary px-2"
+                  href="#"
+                  role="button"
                   ><i class="fa-solid fa-pen"></i
                 ></a>
-                <button class="btn btn-primary" type="submit">
+                <button class="btn border border-secondary px-2" type="submit">
                   <i class="fa-solid fa-trash"></i>
                 </button>
               </td>
             </tr>
             <tr>
+              <!--Riga 2-->
               <th scope="row">I promessi sposi</th>
               <td class="d-none d-md-table-cell">-</td>
               <td>
                 <span class="badge text-bg-success p-1">Disponibile</span>
               </td>
-              <td class="text-end"></td>
+              <td class="text-end">
+                <a
+                  class="btn border border-secondary px-2"
+                  href="#"
+                  role="button"
+                  ><i class="fa-solid fa-pen"></i
+                ></a>
+                <button class="btn border border-secondary px-2" type="submit">
+                  <i class="fa-solid fa-trash"></i>
+                </button>
+              </td>
             </tr>
             <tr>
+              <!--Riga 3-->
               <th scope="row">Il signore degli anelli</th>
               <td class="d-none d-md-table-cell">18/10/2023</td>
               <td>
                 <span class="badge text-bg-warning p-1">In prestito</span>
               </td>
               <td class="text-end">
-                <a class="btn btn-primary" href="#" role="button"
+                <a
+                  class="btn border border-secondary px-2"
+                  href="#"
+                  role="button"
                   ><i class="fa-solid fa-pen"></i
                 ></a>
-                <button class="btn btn-primary" type="submit">
+                <button class="btn border border-secondary px-2" type="submit">
                   <i class="fa-solid fa-trash"></i>
                 </button>
               </td>
             </tr>
             <tr>
+              <!--Riga 4-->
               <th scope="row">Harry Potter e la pietra filosofale</th>
               <td class="d-none d-md-table-cell">-</td>
               <td>
                 <span class="badge text-bg-success p-1">Disponibile</span>
               </td>
               <td class="text-end">
-                <a class="btn btn-primary" href="#" role="button"
+                <a
+                  class="btn border border-secondary px-2"
+                  href="#"
+                  role="button"
                   ><i class="fa-solid fa-pen"></i
                 ></a>
-                <button class="btn btn-primary" type="submit">
+                <button class="btn border border-secondary px-2" type="submit">
                   <i class="fa-solid fa-trash"></i>
                 </button>
               </td>
             </tr>
             <tr>
+              <!--Riga 5-->
               <th scope="row">Il codice da vinci</th>
               <td class="d-none d-md-table-cell">-</td>
               <td>
                 <span class="badge text-bg-danger p-1">Non disponibile</span>
               </td>
               <td class="text-end">
-                <a class="btn btn-primary" href="#" role="button"
+                <a
+                  class="btn border border-secondary px-2"
+                  href="#"
+                  role="button"
                   ><i class="fa-solid fa-pen"></i
                 ></a>
-                <button class="btn btn-primary" type="submit">
+                <button class="btn border border-secondary px-2" type="submit">
                   <i class="fa-solid fa-trash"></i>
                 </button>
               </td>
             </tr>
             <tr>
+              <!--Riga 6-->
               <th scope="row">Shining</th>
               <td class="d-none d-md-table-cell">-</td>
               <td>
                 <span class="badge text-bg-success p-1">Disponibile</span>
               </td>
               <td class="text-end">
-                <a class="btn btn-primary" href="#" role="button"
+                <a
+                  class="btn border border-secondary px-2"
+                  href="#"
+                  role="button"
                   ><i class="fa-solid fa-pen"></i
                 ></a>
-                <button class="btn btn-primary" type="submit">
+                <button class="btn border border-secondary px-2" type="submit">
                   <i class="fa-solid fa-trash"></i>
                 </button>
               </td>
             </tr>
             <tr>
+              <!--Riga 7-->
               <th scope="row">La divina commedia</th>
               <td class="d-none d-md-table-cell">21/09/2023</td>
               <td>
                 <span class="badge text-bg-warning p-1">In prestito</span>
               </td>
               <td class="text-end">
-                <a class="btn btn-primary" href="#" role="button"
+                <a
+                  class="btn border border-secondary px-2"
+                  href="#"
+                  role="button"
                   ><i class="fa-solid fa-pen"></i
                 ></a>
-                <button class="btn btn-primary" type="submit">
+                <button class="btn border border-secondary px-2" type="submit">
                   <i class="fa-solid fa-trash"></i>
                 </button>
               </td>
             </tr>
             <tr>
+              <!--Riga 8-->
               <th scope="row">Il trono di spade</th>
               <td class="d-none d-md-table-cell">-</td>
               <td>
                 <span class="badge text-bg-success p-1">Disponibile</span>
               </td>
               <td class="text-end">
-                <a class="btn btn-primary" href="#" role="button"
+                <a
+                  class="btn border border-secondary px-2"
+                  href="#"
+                  role="button"
                   ><i class="fa-solid fa-pen"></i
                 ></a>
-                <button class="btn btn-primary" type="submit">
+                <button class="btn border border-secondary px-2" type="submit">
                   <i class="fa-solid fa-trash"></i>
                 </button>
               </td>
             </tr>
             <tr>
+              <!--Riga 9-->
               <th scope="row">Il mondo di Sofia</th>
               <td class="d-none d-md-table-cell">-</td>
               <td>
                 <span class="badge text-bg-danger p-1">Non disponibile</span>
               </td>
               <td class="text-end">
-                <a class="btn btn-primary" href="#" role="button"
+                <a
+                  class="btn border border-secondary px-2"
+                  href="#"
+                  role="button"
                   ><i class="fa-solid fa-pen"></i
                 ></a>
-                <button class="btn btn-primary" type="submit">
+                <button class="btn border border-secondary px-2" type="submit">
                   <i class="fa-solid fa-trash"></i>
                 </button>
               </td>
             </tr>
             <tr>
+              <!--Riga 10-->
               <th scope="row">
                 Le cronache di Narnia: il leone, la strega e l'armadio.
               </th>
@@ -231,40 +276,51 @@
                 <span class="badge text-bg-warning p-1">In prestito</span>
               </td>
               <td class="text-end">
-                <a class="btn btn-primary" href="#" role="button"
+                <a
+                  class="btn border border-secondary px-2"
+                  href="#"
+                  role="button"
                   ><i class="fa-solid fa-pen"></i
                 ></a>
-                <button class="btn btn-primary" type="submit">
+                <button class="btn border border-secondary px-2" type="submit">
                   <i class="fa-solid fa-trash"></i>
                 </button>
               </td>
             </tr>
             <tr>
+              <!--Riga 11-->
               <th scope="row">Il piccolo principe</th>
               <td class="d-none d-md-table-cell">-</td>
               <td>
                 <span class="badge text-bg-success p-1">Disponibile</span>
               </td>
               <td class="text-end">
-                <a class="btn btn-primary" href="#" role="button"
+                <a
+                  class="btn border border-secondary px-2"
+                  href="#"
+                  role="button"
                   ><i class="fa-solid fa-pen"></i
                 ></a>
-                <button class="btn btn-primary" type="submit">
+                <button class="btn border border-secondary px-2" type="submit">
                   <i class="fa-solid fa-trash"></i>
                 </button>
               </td>
             </tr>
             <tr>
+              <!--Riga 12-->
               <th scope="row">La storia infinita</th>
               <td class="d-none d-md-table-cell">-</td>
               <td>
                 <span class="badge text-bg-success p-1">Disponibile</span>
               </td>
               <td class="text-end">
-                <a class="btn btn-primary" href="#" role="button"
+                <a
+                  class="btn border border-secondary px-2"
+                  href="#"
+                  role="button"
                   ><i class="fa-solid fa-pen"></i
                 ></a>
-                <button class="btn btn-primary" type="submit">
+                <button class="btn border border-secondary px-2" type="submit">
                   <i class="fa-solid fa-trash"></i>
                 </button>
               </td>
