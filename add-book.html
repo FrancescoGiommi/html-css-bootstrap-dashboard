@@ -148,42 +148,46 @@
           <div id="text" class="form-text">Titolo versione italiana</div>
         </div>
 
-        <div class="mb-3">
-          <!--Genere libro-->
-          <label class="form-label">Genere</label>
-          <select class="form-select" aria-label="Default select example">
-            <option selected>Scegli il genere</option>
-            <option value="1">Fantasy</option>
-            <option value="2">Horror</option>
-            <option value="3">Avventura</option>
-          </select>
+        <div class="d-lg-flex">
+          <div class="mb-3 col-12 col-lg-4">
+            <!--Genere libro-->
+            <label class="form-label">Genere</label>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Scegli il genere</option>
+              <option value="1">Fantasy</option>
+              <option value="2">Horror</option>
+              <option value="3">Avventura</option>
+            </select>
+          </div>
+
+          <div class="mb-3 col-12 col-lg-4">
+            <!--Anno pubblicazione-->
+            <label for="inputText" class="form-label"
+              >Anno di pubblicazione</label
+            >
+            <input
+              type="text"
+              id="inputText"
+              class="form-control"
+              placeholder="Inserisci l'anno"
+              aria-describedby="text"
+            />
+          </div>
+
+          <div class="mb-3 col-12 col-lg-4">
+            <!--Codice ISBN#-->
+            <label for="inputText" class="form-label">ISBN#</label>
+            <input
+              type="text"
+              id="inputText"
+              class="form-control"
+              placeholder="Inserisci il codice ISBN#"
+              aria-describedby="text"
+            />
+          </div>
         </div>
 
-        <div class="mb-3">
-          <!--Anno pubblicazione-->
-          <label for="inputText" class="form-label"
-            >Anno di pubblicazione</label
-          >
-          <input
-            type="text"
-            id="inputText"
-            class="form-control"
-            placeholder="Inserisci l'anno"
-            aria-describedby="text"
-          />
-        </div>
-
-        <div class="mb-3">
-          <!--Codice ISBN#-->
-          <label for="inputText" class="form-label">ISBN#</label>
-          <input
-            type="text"
-            id="inputText"
-            class="form-control"
-            placeholder="Inserisci il codice ISBN#"
-            aria-describedby="text"
-          />
-        </div>
+        <hr />
       </div>
     </main>
     <script
