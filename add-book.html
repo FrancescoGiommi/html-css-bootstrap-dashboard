@@ -136,15 +136,28 @@
           </div>
         </div>
         <!--Titolo libro-->
-        <label for="inputText" class="form-label">Titolo</label>
-        <input
-          type="text"
-          id="inputText"
-          class="form-control"
-          placeholder="Inserisci il titolo del libro"
-          aria-describedby="text"
-        />
-        <div id="text" class="form-text">Titolo versione italiana</div>
+        <div>
+          <label for="inputText" class="form-label">Titolo</label>
+          <input
+            type="text"
+            id="inputText"
+            class="form-control"
+            placeholder="Inserisci il titolo del libro"
+            aria-describedby="text"
+          />
+          <div id="text" class="form-text">Titolo versione italiana</div>
+        </div>
+
+        <div>
+          <!--Genere libro-->
+          <label class="form-label">Genere</label>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Scegli il genere</option>
+            <option value="1">Fantasy</option>
+            <option value="2">Horror</option>
+            <option value="3">Avventura</option>
+          </select>
+        </div>
       </div>
     </main>
     <script
