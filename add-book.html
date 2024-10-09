@@ -106,10 +106,11 @@
     <main>
       <div class="container">
         <!--Titolo-->
-        <h1>Nuovo Libro</h1>
-        <div class="d-flex">
-          <!--Nome e cognome Autore-->
+        <h1 class="my-4">Nuovo Libro</h1>
+
+        <div class="d-flex justify-content-around">
           <div class="mb-3 col-6">
+            <!--Nome Autore-->
             <label for="formGroupExampleInput" class="form-label"
               >Nome Autore</label
             >
@@ -120,7 +121,9 @@
               placeholder="Inserisci il nome dell'autore"
             />
           </div>
+
           <div class="mb-3 col-6">
+            <!--Cognome autore-->
             <label for="formGroupExampleInput2" class="form-label"
               >Cognome Autore</label
             >
@@ -132,6 +135,16 @@
             />
           </div>
         </div>
+        <!--Titolo libro-->
+        <label for="inputText" class="form-label">Titolo</label>
+        <input
+          type="text"
+          id="inputText"
+          class="form-control"
+          placeholder="Inserisci il titolo del libro"
+          aria-describedby="text"
+        />
+        <div id="text" class="form-text">Titolo versione italiana</div>
       </div>
     </main>
     <script
